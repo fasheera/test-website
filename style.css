@@ -1,0 +1,266 @@
+*
+{
+margin:0;
+padding:0;
+}
+
+header{
+	background-image: url("p3.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+.navi{
+	float:right;
+	list-style:none;
+	margin-left:50px;
+	margin-top:15px;
+}
+.navi li{
+	position:center;
+	display:inline-block;
+}
+#ww h1{
+	display:inline-block;
+	
+}
+.navi li a{
+	color:white;
+	padding:40px 30px;
+	font-family:"ROBOTO";
+	text-decoration:none;
+	font-style:bold;
+	font-size:16px;
+}
+	
+.navi li a:hover{
+
+color:yellow;
+
+}	
+
+
+
+.logo img{
+	width:75px;
+	height:45px;
+	float:left;
+	
+}
+#ww{
+	border:  0.5px solid black;
+	height:45px;
+}
+	
+#ww h1{
+font-family:"Brush script MT",Jokerman;
+font-size:48px;
+padding:00px 20px;
+color: black;
+text-shadow:4px 3px 3px yellow;
+letter-spacing:12px;
+border:10px yellow;
+}
+//finish navigation
+
+
+.moti{
+	position:normal;
+	width:1200px;
+	margin-top:0px;
+	margin-left:0px;
+}
+
+.moti h1{
+	font-family:"palace script mt",Forte;
+	font-size:60px;
+	text-align:center;
+	margin-top:200px;
+	color:black;
+	text-shadow:5px 5px 5px white;
+	border:15px  yellow;
+	letter-spacing:15px;
+	
+}
+
+
+.button{
+	margin-top:30px;
+	margin-left:440px;
+}
+.btn{
+	border:1px solid #FAFE80;
+	padding:2px 20px;
+	color:white;
+	text-decoration:none;
+	margin-left:40px;
+	font-size:17px;
+	
+}
+ .btn1:hover{
+	 background-color:#FAFE80;
+ }
+ .btn2:hover{
+ background-color:#FAFE80;
+ }
+ 
+ 
+ 
+ 
+ .welcome h2{
+	 font-family:"kunstler script";
+	 font-size:50px;
+	 color: blue;
+	 border:1px black;
+	 margin-left:100px;
+	 text-shadow:2px 2px 2px yellow;
+	 margin-top:30px;
+ }
+ p.fpara{
+	 font-size:20px;
+	 text-align:justify;
+	 margin-left:120px;
+	 margin-right:120px;
+	 text-indent:40px;
+	 color:#808080;
+	 
+ }
+ 
+ .image img{
+	 float:right;
+	 height:450px;
+	 width:749px;
+	 margin-right:00px;
+	position:sticky;
+ }
+
+ .image h2{
+	 font-size:75px;
+	 font-family:"vladimir script";
+	 text-align:center;
+	 color:#ADD8E6;
+	 
+	 
+	 
+ }
+ .image p{
+	 
+	 margin-left:75px;
+	 margin-right:800px;
+	 font-family:"roboto";
+	 font-size:20px;
+	 color:#808080;
+ }
+ 
+ .image2 img{
+	 float:left;
+	 height:400px;
+	 width:600px;
+	 margin-left:00px;
+	 position:sticky;
+ 
+ }
+ 
+ .image2 h2{
+	 font-size:55px;
+	 font-family:"vladimir script";
+	 text-align:center;
+	 color:#ADD8E6;
+	 
+ }
+ 
+ .image2 p{
+	 margin-left:650px;
+	 margin-right:50px;
+	 font-family:"roboto";
+	 font-size:20px;
+	 color:#808080;
+ }
+ 
+ .image3 img{
+	 float:right;
+	 height:450px;
+	 width:749px;
+	 margin-right:00px;
+	 position:sticky;
+	
+ }
+ 
+ .image3 h2{
+	 font-size:55px;
+	 font-family:"vladimir script";
+	 text-align:center;
+	 color:#ADD8E6;
+	 
+ }
+ 
+ .image3 p{
+	  margin-left:50px;
+	 margin-right:800px;
+	 font-family:"roboto";
+	 font-size:20px;
+	 color:#808080;
+
+ }
+ 
+
+footer {
+	width:100%;
+	background-color:black;
+	padding:60px 0px;
+	height:60vh;
+}
+ .foot h2{
+	 color:white;
+	 text-align:center;
+	 font-family:"roboto";
+ }
+ 
+ .foot h3{
+	 color:white;
+	 text-align:center;
+	 font-family:"roboto";
+ }
+ 
+.foot form{
+	margin-left:530px;
+}
+ .foot form input[type=submit]{
+	 width:70px;
+	background-color:red;
+	height:20px;
+}
+.foot form input [type=text]:focus{
+	height:30px;
+	width:100px;
+}
+
+.navi2{
+	margin-left:150px;
+	display:inline-block;
+}
+
+.navi3{
+	margin-left:700px;
+	display:inline-block;
+}
+.lis {
+	text-decoration:none;
+	color:gray;
+}
+ 
+.navi2 li a{
+	color:white;
+	text-decoration:none;
+}
+.navi3 li a{
+	color:white;
+	text-decoration:none;
+}
+.last h3{
+
+	margin-top:90px;
+	text-align:center;
+	color:white;
+}

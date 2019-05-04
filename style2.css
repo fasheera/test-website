@@ -1,0 +1,196 @@
+*
+{
+margin:0;
+padding:0;
+}
+
+header{
+	background-image: url("a1.jpg");
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+	animation:slide 80s normal;
+
+	
+}
+@keyframes slide{
+	
+	25%{
+	background-image: url("a3.jpg");
+	}
+	50%{
+	background-image: url("a4.jpg");
+	}
+	75%{
+	background-image: url("a5.jpg");
+	}
+	100%{
+	background-image: url("a1.jpg");
+	}
+}
+
+.navi{
+	float:right;
+	list-style:none;
+	margin-left:50px;
+	margin-top:15px;
+}
+.navi li{
+	position:center;
+	display:inline-block;
+}
+#ww h1{
+	display:inline-block;
+	
+}
+.navi li a{
+	color:white;
+	padding:40px 30px;
+	font-family:"ROBOTO";
+	text-decoration:none;
+	font-style:bold;
+	font-size:16px;
+}
+	
+.navi li a:hover{
+
+color:yellow;
+
+}	
+
+
+
+.logo img{
+	width:75px;
+	height:45px;
+	float:left;
+	
+}
+#ww{
+	border:  0.5px solid black;
+	height:45px;
+}
+	
+#ww h1{
+font-family:"Brush script MT",Jokerman;
+font-size:48px;
+padding:00px 20px;
+color: black;
+text-shadow:4px 3px 3px yellow;
+letter-spacing:12px;
+border:10px yellow;
+}
+//finish navigation
+
+
+ .topic1 h1{
+	font-family:"Brush script MT";
+	font-size:70px;
+
+ }
+ 
+ .para h2{
+	 font-family:"Brush script MT";
+	 font-size:70px;
+	 margin-left:100px;
+	 color:blue;
+	 
+ }
+ .para p{
+	 font-size:20px;
+	 text-align:justify;
+	 margin-left:120px;
+	 margin-right:120px;
+	 text-indent:40px;
+	 color:#808080;
+
+ }
+	
+.topic2 h1{
+	font-family:"Brush script MT";
+	margin-left:100px;
+	font-size:70px;
+	color:blue;
+}
+
+.para2 p{
+	 font-size:20px;
+	 text-align:justify;
+	 margin-left:120px;
+	 margin-right:120px;
+	 text-indent:40px;
+	 color:#808080;
+
+ 
+	
+}
+
+//body finish
+
+
+footer {
+	width:100%;
+	background-color:black;
+	padding:60px 0px;
+	height:60vh;
+}
+
+.alt {
+	width:100%;
+	background-color:black;
+	height:70vh;
+	padding:60px 0px;
+}
+ .foot h2{
+	 color:white;
+	 text-align:center;
+	 font-family:"roboto";
+ }
+ 
+ .foot h3{
+	 color:white;
+	 text-align:center;
+	 font-family:"roboto";
+ }
+ 
+.foot form{
+	margin-left:530px;
+}
+ .foot form input[type=submit]{
+	 width:70px;
+	background-color:red;
+	height:20px;
+}
+.foot form input [type=text]:focus{
+	height:30px;
+	width:100px;
+}
+
+.navi2{
+	margin-left:150px;
+	display:inline-block;
+}
+
+.navi3{
+	margin-left:700px;
+	display:inline-block;
+}
+.lis {
+	text-decoration:none;
+	color:gray;
+}
+ 
+.navi2 li a{
+	color:white;
+	text-decoration:none;
+}
+.navi3 li a{
+	color:white;
+	text-decoration:none;
+}
+.last h3{
+
+	margin-top:90px;
+	text-align:center;
+	color:white;
+}
